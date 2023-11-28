@@ -2,28 +2,60 @@
 <!DOCTYPE html>
 <!--HTML root element, all other elements are contained within it-->
 <html>
+	<!--Contains the non-visible elements of the webpage-->
+	<head>
+		<!--Below meta characteristics make website compatible with multiple devices-->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="'width=device-width, initial-scale=1.0" />
+		<!--Specifies the title of the webpage-->
+		<title>Dylan's Portfolio Website</title>
+        <!--Enables .css file-->
+        <link rel="stylesheet" href="style.css">
+	</head>
 
-    <!--Contains the non-visible elements of the webpage-->
-    <head>
-        <!--Below meta characteristics make website compatible with multiple devices-->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="'width=device-width, initial-scale=1.0">
-        <!--Specifies the title of the webpage-->
-        <title>Dylan's Portfolio Website</title>
-    </head>
-
-    <!--Contains all the visible elements of the webpage-->
-    <body>
-        <!--Different headers-->
-        <img src="images/tux.jpeg" width="100px" height="100px">
-        <h2>Hi, my name is</h2>
-        <h1>Dylan Carter.</h1>
-        <h3>I am a university student and software developer intern <br> specializing in frontend
-            development. I'm also keen on advancing <br> my knowledge of machine learning and backend 
-            development.
-        </h3>
-        <!--Horizontal line to break page up-->
-        <hr>
-    </body>
-
+	<!--Contains all the visible elements of the webpage-->
+	<body>
+        <!--Enables .js file-->
+        <script src="js/script.js"></script>
+		<div>
+			<!--Profile pic-->
+			<img src="images/tux.jpeg" alt="Profile" class="profile" width="100px" height="100px" border="2" align="right" />
+			<!--Different headers-->
+			<h2 class="Hi">Hi, my name is</h2>
+			<h1 class="name">Dylan Carter.</h1>
+			<h3 class="intro">
+				I am a university student and software developer intern specializing <br />
+                in frontend development. I'm also keen on advancing my knowledge <br />
+                of machine learning and backend development.
+			</h3>
+            <h3 class="below">
+                This website showcases my personality, academic credentials, work experience,<br />
+                projects, and contact information. Check out each of these sections below!
+            </h3>
+		</div>
+        <!--Links to different info pages-->
+        <div>
+            <a href="about.html" class="about">About Me</a>
+            <a href="academics.html" class="academics">Academics</a>
+            <a href="work.html" class="work">Work Experience</a>
+            <a href="projects.html" class="projects">Projects</a>
+        </div>
+		<!--Horizontal line to break page up-->
+		<hr />
+		<!--Social links within their images-->
+		<div>
+			<a href="https://github.com/dylancrter" class="github">
+				<img src="images/githublogo.png" alt="github" class="github"/>
+			</a>
+			<a href="https://www.linkedin.com/in/dylan-carter-541012251/" class="linkedin">
+				<img src="images/linkedinlogo.png" alt="linkedin" class="linkedin"/>
+			</a>
+			<a href="https://twitter.com/dylanc_rter" class="twitter">
+				<img src="images/xlogo.jpg" alt="twitter" class="twitter"/>
+			</a>
+            <a href="https://leetcode.com/dylancarter580/" class="leetcode">
+                <img src="images/leetcodelogo.png" alt="leetcode" class="leetcode">
+            </a>
+		</div>
+	</body>
 </html>
