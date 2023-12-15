@@ -42,8 +42,34 @@ a.github, a.linkedin, a.twitter, a.leetcode {
     margin-right: 10px; /* Add some space between the links */
 }
 
-img.github, img.linkedin, img.twitter, img.leetcode {
+img.github {
     height: 35px;
     width: 35px;
-    margin-right: 10px; /* Add some space between the image and text */
+}
+
+a.linkedin {
+    text-decoration: none;
+}
+
+img.linkedin {
+    height: 35px;
+    width: 35px;
+}
+
+a.twitter {
+    text-decoration: none;
+}
+
+img.twitter {
+    height: 35px;
+    width: 35px;
+}
+
+a.leetcode {
+    text-decoration: none;
+}
+
+img.leetcode {
+    height: 35px;
+    width: 35px;
 }
