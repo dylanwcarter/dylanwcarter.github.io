@@ -95,3 +95,10 @@ header {
     width: 300px;
     margin-right: 35px;
 }
+.certificate {
+    font-size: 20px;
+}
+
+.arch {
+    width: 600px;
+}
