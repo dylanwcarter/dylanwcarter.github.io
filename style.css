@@ -103,10 +103,10 @@ header {
     width: 600px;
 }
 
-.homedepot {
+.homedepot, .mod, .cfb, .tweet, .ugaathletics {
     height: 100px;
 }
 
-.mod {
-    height: 100px;
+.solanaproj {
+    font-size: 15px;
 }
