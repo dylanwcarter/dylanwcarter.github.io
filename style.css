@@ -1,112 +1,103 @@
-body {
-    /* Use a light grey background for a subtle, professional look */
-    background-color: #F5F5F5;
-}
-
-h1, h2, h3 {
-    /* Use a serif font for headers to contrast with the body text */
-    font-family: 'Georgia', serif;
-}
-
-/* Use a darker color for text to ensure it's readable against the light background */
-h1, h2, h3, p {
-    color: #333;
-}
-
-.Hi, .intro, .sofar, .below {
-    font-weight: normal;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
-.normal {
-    font-weight: normal;
-}
-
-.checkout {
-    font-weight: normal;
-}
-
-/* Use a different color for links to make them stand out */
-a {
-    font-family: 'Georgia', sans-serif;
-    font-size: 24px;
-    color: #333; /* Change the color to black */
-    transition: color 0.5s ease;
-    display: block; /* Add this line to make the links go down the page */
-    font-weight: bold; /* Remove the underline from the links */
-    text-decoration: none; /* Remove the underline from the links */
-    margin-bottom: 10px; /* Add some space between the links */
-}
-
-/* Change the color of the link when it's hovered over */
-a:hover {
-    color: blue; /* Change the hover color to a dark grey */
-}
-
-/* Styles for the social media links container */
-.socials {
-    display: flex; /* Use flexbox to align the links horizontally */
-}
-
-/* Specific styles for social media links */
-a.github, a.linkedin, a.twitter, a.leetcode {
-    display: flex; /* Use flexbox to align the image and text */
-    align-items: center; /* Vertically align the image and text */
-    margin-right: 10px; /* Add some space between the links */
-}
-
-img.github, img.linkedin, img.twitter, img.leetcode {
-    height: 35px;
-    width: 35px;
-    margin-right: 10px; /* Add some space between the image and text */
-}
-
-header {
-    display: flex; /* Use flexbox to align the elements */
-    justify-content: space-between; /* Space the elements out */
-    align-items: center; /* Align the elements vertically */
-}
-
-.home {
-    margin-right: 10px; /* Add some space to the right of the link */
-}
-
-.aboutimg {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-
-.uga, .athens, .atlanta {
-    width: 300px;
-    margin-right: 35px;
-}
-
-.interestimg {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-
-.busch, .teslabot, .stonks {
-    width: 300px;
-    margin-right: 35px;
-}
-.certificate {
-    font-size: 20px;
-}
-
-.arch {
-    width: 600px;
-}
-
-.homedepot, .mod, .cfb, .tweet, .ugaathletics {
-    height: 100px;
-}
-
-.solanaproj {
-    font-size: 15px;
-}
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+  
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+  }
