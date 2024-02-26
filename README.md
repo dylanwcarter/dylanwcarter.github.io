@@ -1,3 +1,3 @@
-# Dylan Carter's Portfolio Site
-- Contains info about me, my education, my work experience, and current projects
+# My Portfolio Site
+- Created with pure JavaScript, HTML, & CSS
 - Please feel free to reach out, thanks for looking! 
