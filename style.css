@@ -341,6 +341,14 @@ video {
   color: black;
 }
 
+.subtitle {
+  margin: .2em 0 .5em 0;
+  padding: 0;
+  text-align: center;
+  font: 300 15pt/1.2 -apple-system, 'Avenir', 'Segoe UI', sans-serif;
+  color: #333;
+}
+
 /* Mobile Styles */
 @media only screen and (max-device-width: 768px) {
   h1 {
