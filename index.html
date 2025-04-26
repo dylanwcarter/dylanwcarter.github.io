@@ -2,82 +2,67 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>dylanwcarter: home</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Dylan Carter | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="topbar">
-        <div class="topcontent">
-          <table>
-            <tbody>
-              <tr>
-                <td style="text-align: left">
-                  <span class="nav"> Home </span>
-                  <span class="nav_mobile"> Home </span>
-                </td>
-                <td style="text-align: right">
-                  <span class="nav">
-                    <a href="mailto:dylancrter@gmail.com">email</a>
-                    <a href="https://github.com/dylanwcarter">github</a>
-                    <a
-                      href="https://www.linkedin.com/in/dylan-carter-541012251/"
-                      >linkedin</a
-                    >
-                  </span>
-                  <span class="nav_mobile">
-                    <a href="mailto:dylancrter@gmail.com">email</a>
-                    <a href="https://github.com/dylanwcarter">github</a>
-                    <a
-                      href="https://www.linkedin.com/in/dylan-carter-541012251/"
-                      >linkedin</a
-                    >
-                  </span>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="body">
-        <h1 id="title">Dylan Carter</h1>
-        <h2 class="subtitle">Undergraduate Computer Science Student at UGA</h2>
-        <h3>
-          Updates
-          <span style="font-size: small">
-            <a href="archive.html">(Archived)</a>
-          </span>
-        </h3>
-        <table id="news" class="not_booktabs">
-          <tbody>
-            <tr>
-              <td class="k">08/2024 - 05/2025:</td>
-              <td class="v">
-                Undergraduate Researcher at UGA School of Computing
-              </td>
-            </tr>
-            <tr>
-              <td class="k">05/2024 - 08/2024:</td>
-              <td class="v">Software Development Intern at Infor</td>
-            </tr>
-            <tr>
-              <td class="k">08/2022 - 05/2025:</td>
-              <td class="v">
-                Undergraduate Computer Science Student at The University of
-                Georgia
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <h3>Links</h3>
-        <a href="https://pycs.vercel.app">pycs</a>
-        <br />
-        <a href="https://mapthens.com">mapthens</a>
-        <br />
-        <a href="https://sortscape-flame.vercel.app/">sortscape</a>
-      </div>
-      </div>
-    </div>
+    <header class="topbar">
+      <nav>
+        <a class="home-link" href="/">Dylan Carter</a>
+        <div class="spacer"></div>
+        <a href="https://github.com/dylanwcarter" target="_blank" rel="noopener"
+          >GitHub</a
+        >
+        <a href="https://x.com/dworthcarter" target="_blank" rel="noopener"
+          >X</a
+        >
+        <a
+          href="https://linkedin.com/in/dylan-carter-541012251"
+          target="_blank"
+          rel="noopener"
+          >LinkedIn</a
+        >
+        <a href="mailto:dylanc.rter@gmail.com">Email</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="intro">
+        <h1>About</h2>
+        <p id="history">
+            <ul class="history-list">
+                <li>
+                    <time>Starting 06/2025</time> 
+                    <br>
+                    Associate Software Engineer at Infor
+                </li>
+                <li>
+                    <time>08/2024</time> - 
+                    <time>05/2025</time>
+                    <br>
+                    Undergraduate Researcher at UGA
+                </li>
+                <li>
+                    <time>05/2024</time> - 
+                    <time>08/2024</time>
+                    <br>
+                    Software Development Intern at Infor
+                </li>
+                <li>
+                    <time>08/2022</time> - 
+                    <time>05/2025</time>
+                    <br>
+                    Undergraduate Computer Science Student at UGA
+                </li>
+            </ul>
+        </p>
+
+        <h1>Links</h2>
+        <p class="links">
+          <a href="assets/resume.pdf" target="_blank">Résumé (PDF)</a>
+          <a href="blog/index.html">Blog</a>
+        </p>
+      </section>
+    </main>
   </body>
 </html>

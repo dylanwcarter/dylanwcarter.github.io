@@ -1,2 +1,3 @@
 # dylanwcarter.github.io
-This site says some things about me
+
+Thanks for looking, this site has info about me, my work, and my thoughts.
