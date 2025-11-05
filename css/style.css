@@ -65,36 +65,20 @@ nav a:focus {
   margin-bottom: 0.5rem;
 }
 
-#history {
+#current {
   font-size: 1.15rem;
 }
 
-.history-list {
-  list-style: none;
+.current-list li {
+  margin-bottom: 0.5rem;
 }
 
-.history-list li {
-  margin-bottom: 1rem;
-}
-
-.history-date {
-  color: #6c757d;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-.links a {
-  color: #000;
+#past {
   font-size: 1.15rem;
-  text-decoration: none;
 }
 
-.links a:hover {
-  text-decoration: underline;
+.past-list li {
+  margin-bottom: 0.5rem;
 }
 
 /* --- Blog header -- */
